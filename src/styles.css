@@ -71,3 +71,8 @@ p {
 h4 {
    letter-spacing: 2px;
 }
+@media (max-width: 500px) {
+   .list {
+      width: 80%;
+   }
+}
