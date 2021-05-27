@@ -2,7 +2,7 @@ import { useState } from "react";
 import data from "../Data";
 const List = () => {
    const [person, setPerson] = useState(data);
-   console.log(person);
+//    console.log(person);
 
    const handleClick = () => {
       setPerson("");
